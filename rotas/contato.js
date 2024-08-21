@@ -1,5 +1,5 @@
 export default class Contato {
-    static #contatos = []; //Reponsável por adicionar elementos no container princípal
+    static #contatos = []; //Reponsável pela mudança dos itens dentro do container
     static #cont = 0; //Método de atribuir ID unícos
 
     constructor(nome, num, email) {
